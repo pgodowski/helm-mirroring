@@ -3,9 +3,9 @@ kind: ImageSetConfiguration
 archiveSize: 4
 storageConfig:
   local:
-    path: /Users/piotr.godowskipl.ibm.com/Documents/GitHub/helm-mirroring/mirroring-tools-test/oc-mirror/mirror
+    path: <path-to>/helm-mirroring/mirroring-tools-test/oc-mirror/mirror
 mirror:
  helm:
   local:
     - name: test-mirror-helm
-      path: /Users/piotr.godowskipl.ibm.com/Documents/GitHub/helm-mirroring/charts/test-mirror-helm-0.3.0.tgz
+      path: <path-to>//helm-mirroring/charts/test-mirror-helm-0.3.0.tgz
