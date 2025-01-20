@@ -1,0 +1,12 @@
+apiVersion: operator.ibm.com/v1
+kind: ImageMirrorList
+metadata:
+    name: ibm-test-images-list
+spec:
+    containers:
+        - name: pause
+          image: k8s.gcr.io/pause:3.2
+        - name: busybox
+          image: quay.io/quay/busybox:latest
+        - name: nginx-ingress
+          image: quay.io/nginx/nginx-ingress:latest

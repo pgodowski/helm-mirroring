@@ -1,0 +1,13 @@
+apiVersion: v2
+appVersion: 4.4.0
+description: |
+  Helm Chart for testing various image mirroring tools
+keywords:
+- Airgap
+- Offline
+- Other
+kubeVersion: '>=1.16.0-0'
+maintainers:
+- name: IBM
+name: test-mirror-helm
+version: 0.3.0

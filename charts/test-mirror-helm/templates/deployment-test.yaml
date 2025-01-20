@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+    name: nginx-ingress
+spec:
+    replicas: 1
+    selector: 
+        matchLabels:
+            app: nginx-test
+    template:
+        metadata:
+            labels:
+                app: nginx-test
+        spec:
+            containers:
+                - name: nginx
+                  image: quay.io/nginx/nginx-ingress:latest
+                  ports:
+                    - containerPort: 8080
+                      protocol: TCP

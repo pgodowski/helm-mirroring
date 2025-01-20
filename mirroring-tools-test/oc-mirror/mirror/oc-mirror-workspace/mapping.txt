@@ -1,0 +1,3 @@
+quay.io/nginx/nginx-ingress@sha256:3834c3dc92106fe5f8d8188768ee7540bbd21a19354e5ce1ac516acbc9e52104=file://nginx/nginx-ingress:latest
+k8s.gcr.io/pause@sha256:927d98197ec1141a368550822d18fa1c60bdae27b78b0c004f705f548c07814f=file://pause:3.2
+quay.io/quay/busybox@sha256:92f3298bf80a1ba949140d77987f5de081f010337880cd771f7e7fc928f8c74d=file://quay/busybox:latest
