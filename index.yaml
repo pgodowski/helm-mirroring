@@ -21,6 +21,6 @@ entries:
     - name: IBM
     name: ibm-mongodb-enterprise-helm
     urls:
-    - https://redhat-developer.github.io/redhat-helm-charts/charts/ibm-mongodb-enterprise-helm-0.2.0.tgz
-    version: 0.2.0
+    - https://github.com/pgodowski/helm-mirroring/raw/refs/heads/main/charts/ibm-mongodb-enterprise-helm-0.3.0.tgz
+    version: 0.3.0
 generated: "2022-02-24T03:19:47.886897471-05:00"
