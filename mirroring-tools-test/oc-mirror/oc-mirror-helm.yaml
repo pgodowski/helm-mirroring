@@ -1,17 +1,11 @@
-apiVersion: mirror.openshift.io/v1alpha1
+apiVersion: mirror.openshift.io/v1alpha2
 kind: ImageSetConfiguration
 archiveSize: 4
 storageConfig:
- registry:
-   imageURL: example.com/example/oc-mirror
-   skipTLS: false
+  local:
+    path: /Users/piotr.godowskipl.ibm.com/Documents/GitHub/helm-mirroring/mirroring-tools-test/oc-mirror/mirror
 mirror:
  helm:
-   repos:
-     - name: redhat-helm-charts
-       url: https://raw.githubusercontent.com/redhat-developer/redhat-helm-charts/master
-       charts:
-         - name: ibm-mongodb-enterprise-helm
-           version: 0.2.0
- additionalImages:
-   - name: registry.redhat.io/ubi8/ubi:latest
+  local:
+    - name: test-mirror-helm
+      path: /Users/piotr.godowskipl.ibm.com/Documents/GitHub/helm-mirroring/charts/test-mirror-helm-0.3.0.tgz
