@@ -3,9 +3,11 @@ kind: ImageSetConfiguration
 archiveSize: 4
 storageConfig:
   local:
-    path: <path-to>/helm-mirroring/mirroring-tools-test/oc-mirror/mirror
+    path: mirroring-tools-test/oc-mirror/oc-mirror-helm.yamlhelm-mirroring/mirroring-tools-test/oc-mirror/mirror
 mirror:
  helm:
   local:
     - name: test-mirror-helm
-      path: <path-to>//helm-mirroring/charts/test-mirror-helm-0.3.0.tgz
+      path: <path-to>/helm-mirroring/charts/test-mirror-helm-0.3.0.tgz
+      imagePaths:
+      - "{.spec.template.spec.containers[*].env[*].value}"
