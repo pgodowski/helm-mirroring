@@ -15,6 +15,9 @@ spec:
             containers:
                 - name: nginx
                   image: quay.io/nginx/nginx-ingress:latest
+                  env:
+                    - name: DUMMY_IMAGE
+                      value: "quay.io/prometheus/prometheus:latest"
                   ports:
                     - containerPort: 8080
                       protocol: TCP

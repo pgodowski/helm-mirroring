@@ -1,3 +1,4 @@
-quay.io/nginx/nginx-ingress@sha256:3834c3dc92106fe5f8d8188768ee7540bbd21a19354e5ce1ac516acbc9e52104=file://nginx/nginx-ingress:latest
-k8s.gcr.io/pause@sha256:927d98197ec1141a368550822d18fa1c60bdae27b78b0c004f705f548c07814f=file://pause:3.2
 quay.io/quay/busybox@sha256:92f3298bf80a1ba949140d77987f5de081f010337880cd771f7e7fc928f8c74d=file://quay/busybox:latest
+quay.io/nginx/nginx-ingress@sha256:ff7e36746ca13b9348f15ecc4edb0b51634d32dbb160720f58ea7aed1808b249=file://nginx/nginx-ingress:latest
+quay.io/prometheus/prometheus@sha256:6559acbd5d770b15bb3c954629ce190ac3cbbdb2b7f1c30f0385c4e05104e218=file://prometheus/prometheus:latest
+k8s.gcr.io/pause@sha256:927d98197ec1141a368550822d18fa1c60bdae27b78b0c004f705f548c07814f=file://pause:3.2
